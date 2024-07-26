@@ -1,0 +1,9 @@
+.name{
+  background-color: lightblue;
+  display: flex; flex: 1 1 auto;
+}
+.spacer{ display: inline-block;
+  justify-content: end;
+  margin-left: auto;
+
+}
