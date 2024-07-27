@@ -9,7 +9,7 @@ const routes: Routes = [
 
   {
     component:ProfileComponent,
-    path:'profile'
+    path:''
   },
   {
     component:TasksComponent,
