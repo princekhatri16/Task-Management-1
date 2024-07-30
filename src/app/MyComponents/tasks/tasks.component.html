@@ -1,4 +1,14 @@
-<div *ngFor="let x task ">
-  {{x.sno}}--{{x.title}} -- {{x.desc}}
-  <button style="margin-bottom: 20px;" class="btn btn-primary" (click)="add()">Add Task</button>
+
+<div class="taskcontainer">
+
+  <div *ngFor="let x of task " class="addedTasks">
+    
+    {{x.sno}}--{{x.title}} -- {{x.desc}}
+
+ <div class="buttonDesign">
+  
+  <button style="margin-bottom: 0px; background-color: #524bf0; border: 0px;" class="btn btn-primary" (click)="add()">Add Task</button>
+
+</div>
+</div>
 </div>

@@ -1,9 +1,22 @@
-.name{
-  background-color: lightblue;
-  display: flex; flex: 1 1 auto;
+*{ 
+  height: 100%;
+  background-color: #9f91c5;
+  width: 100%;
+  
 }
-.spacer{ display: inline-block;
+
+.spacer{ 
+  position: sticky;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
   justify-content: end;
   margin-left: auto;
-
 }
+.header{
+  display: inline;
+}
+.design{
+  display: inline;
+}
+.design a{color: white;}

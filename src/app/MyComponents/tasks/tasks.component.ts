@@ -9,9 +9,7 @@ export class TasksComponent {
 
   
   ngOnInit() {  }
-  add(){
-
-  }  
+  add(){}  
   task:Tasks[]
   constructor() {
     this.task = [

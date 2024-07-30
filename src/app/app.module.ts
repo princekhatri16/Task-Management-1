@@ -11,6 +11,7 @@ import { TasksComponent } from './MyComponents/tasks/tasks.component';
 import { NoPageComponent } from './MyComponents/no-page/no-page.component';
 import { ReactiveFormsModule} from '@angular/forms';
 import { FormComponent } from './MyComponents/form/form.component';
+import { TasksListComponent } from './MyComponents/tasks-list/tasks-list.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { FormComponent } from './MyComponents/form/form.component';
     TasksComponent,
     NoPageComponent,
     FormComponent,
+    TasksListComponent,
   ],
   imports: [
     BrowserModule,
